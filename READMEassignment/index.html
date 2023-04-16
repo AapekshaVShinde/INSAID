@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SunEnergy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-FijmGg9OiLCAfUgRY6irNOBEY29iKjglnDycX+yfCbyZBn2Qo+RGsfliJiicF+d/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+    <script>
+      // Image slider script
+      const slides = document.querySelectorAll('.slide');
+      let currentSlide = 0;
+      setInterval(() => {
+        slides[currentSlide].style.opacity = 0;
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].style.opacity = 1;
+      }, 5000);
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SunEnergy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Products and services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+  <!-- /*-introduction-*/ -->
+
+
+      <section class="jumbotron text-center">
+        <div class="slides">
+          <div class="slide">
+            <img src="img/s-1.jpg" alt="Slide 1">
+          </div>
+
+        </div>
+        <div class="container">
+          <h1 class="jumbotron-heading" >Welcome to SunEnergy</h1>
+          <p class="lead">"Welcome to our solar energy products website! We are thrilled to offer a wide range of
+            innovative and sustainable solutions to help you harness the power of the sun.
+            Whether you're looking for solar panels, batteries, or other solar accessories,
+            we have everything you need to reduce your carbon footprint and save money on energy costs.
+             Our team is dedicated to providing high-quality products and excellent customer service,
+             so feel free to browse our selection and don't hesitate to contact us with any questions.
+              Thank you for choosing us as your solar energy partner!"</p>
+          <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+          <i class="fas fa-envelope"></i>
+
+        </div>
+      </section>
+
+
+      <!-- /*-product-*/ -->
+
+      <section class="py-5 bg-light" id="services">
+        <div class="container" >
+
+
+            <h2 class="text-center mb-5">Our Products</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">SOLAR PANELS</h4>
+                  <p class="card-text">Every home solar system is custom designed with software by an engineer. An expensive,
+                    high efficiency panel may perform just as well
+                     as a standard or economy panel under certain circumstances.</p>
+                </div>
+                <center><div>
+                  <img src="img/solar-panel.jpeg" alt="Girl in a jacket" width="300" height="300">
+                </div></center>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">SOLAR BATTRIES</h4>
+                  <p class="card-text">long with panels and inverters, batteries are rapidly becoming an essential component of modern solar systems.
+                     Solar batteries have many benefits and
+                    can be of critical importance for homeowners looking to protect themselves against power outages.</p>
+                </div>
+
+                <center><div>
+                  <img src="img/solar-battery.jpeg" alt="Girl in a jacket" width="300" height="300">
+                </div></center>
+
+              </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">SOLAR HEATERS</h4>
+                  <p class="card-text">Solar water heating system is a device that helps in heating water by using the energy from the SUN.
+                     This energy is totally free.
+                    Solar energy (sun rays) is used for heating water. Water is easily heated to a temperature of 60-80o C.</p>
+                </div>
+                <center><div>
+                  <img src="img/solar-water-heater.jpeg" alt="Girl in a jacket" width="300" height="300">
+                </div></center>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+
+
+
+<!-- /*-services-*/ -->
+
+      <section id="services">
+        <div class="container">
+          <h2 class="text-center mb-5">Our Services</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-item">
+                <h3>Solar Panel Installation</h3>
+                <p>We provide professional installation of solar panels on your property,
+                  ensuring that your .</p>
+                      <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="service-item">
+                <h3>Energy Assessments</h3>
+
+              <p>Our team of experts can assess your current energy usage and recommend the right
+                solar energy products to meet your specific needs.</p>
+                  <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+              </div>
+              </div>
+
+
+            <div class="col-md-4">
+              <div class="service-item">
+                <h3>Financing Options</h3>
+                <p>We offer a variety of financing options to help make the transition to solar energy affordable for everyone.</p>
+                    <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-item">
+                <h3>Maintenance and Repair</h3>
+                <p>We provide ongoing maintenance and repair services to ensure that your solar panels continue to perform at their best.</p>
+                    <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-item">
+                <h3>Solar Panel Cleaning</h3>
+                <p>We offer professional cleaning services to help your solar panels maintain optimal efficiency.</p>
+                    <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-item">
+                <h3>Energy Monitoring</h3>
+                <p>Our energy monitoring services allow you to track your energy usage and monitor the performance of your panels</p>
+                  <a href="https://www.energy.gov/solar" class="btn btn-primary my-2 btn-lg my-2 rounded-pill">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!-- /*-about us-*/ -->
+
+      <section class="py-5" id="about">
+
+
+
+        <div class="container">
+          <div class="row">
+
+            <h2 class="mb-5 text-center">About Us</h2>
+
+                <p class="card-text">We are a small business dedicated to providing high-quality products and services for our clients.
+                   Our team consists of experienced professionals who are committed to delivering the best results for your business needs.
+                 Going solar really doesn’t have to be complicated. If you’re just starting your solar journey or want to get a very clear
+                  understanding of how solar works from the ground up, we’ve got you covered.</p>
+
+
+<p>At "SunEnergy" Solar Energy Products, we are passionate about providing sustainable solutions for homes and businesses. With a deep understanding of the benefits of solar energy,
+ we are committed to helping our customers reduce their carbon footprint while enjoying significant savings on their energy bills.
+
+Our team is made up of experts in the solar industry who are dedicated to providing the best products and services to our clients.
+We work closely with our customers to understand their unique energy needs and offer customized solutions that are both efficient and cost-effective.
+
+Our product line includes a variety of high-quality solar panels, inverters, batteries, and accessories from top manufacturers in the industry.
+ We also offer installation and maintenance services to ensure that our customers get the most out of their solar systems.
+
+At "SunEnergy" Solar Energy Products, we believe that solar energy is the future, and we are excited to be a part of the solution.
+Join us in our mission to create a cleaner, more sustainable world, one solar panel at a time.</p>
+                <a href="#contact" class="btn btn-primary btn-lg my-2 rounded-pill">Contact Us</a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- /*-contact us-*/ -->
+
+    <section class="py-5 bg-light" id="contact">
+
+
+      <div class="container" style="background-image: url('img/contact-us.jpg');  background-repeat: no-repeat;  background-size: cover;">
+
+
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg my-2 rounded-pill">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6 mb-4">
+      <h2>Contact Information</h2>
+      <ul class="list-unstyled">
+        <li><i class="fa fa-map-marker"></i> Near Rama Furnitures, Akurdi, Pune</li>
+        <li><i class="fa fa-phone"></i> +91 6754 8967</li>
+        <li><i class="fa fa-envelope"></i> SunEnergy@.com</li>
+        <li><i class="fa fa-clock-o"></i> Mon-Fri 9am-5pm</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+  </main>
+  <footer class="bg-light py-3">
+    <div class="container text-center">
+      <p>&copy; 2023 SunEnergy</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
